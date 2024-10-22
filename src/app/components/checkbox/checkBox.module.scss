@@ -1,0 +1,23 @@
+.Label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.CheckBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  &.check {
+    background-color: green;
+    color: white;
+    &::before {
+      content: "✔";
+      font-size: small;
+      font-weight: bold;
+    }
+  }
+}

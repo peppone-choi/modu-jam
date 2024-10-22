@@ -1,0 +1,25 @@
+.Wrapper {
+  display: flex;
+  padding: 0.5rem 2rem;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  min-width: 80%;
+  border: none;
+  border-radius: 5px;
+  min-height: 2rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  .Text {
+    flex: 1;
+    text-align: start;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    &.check {
+      text-decoration: line-through;
+      color: #888;
+    }
+  }
+}
